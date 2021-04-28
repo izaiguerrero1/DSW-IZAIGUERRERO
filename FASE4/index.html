@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
   <title>Frameworks, CSS y Posicionamiento Web</title>
@@ -22,11 +24,12 @@
     <div class="collapse navbar-collapse" id="menu">
       <ul class="navbar-nav mr-auto">
         <li class="navbar-item active">
-          <a href="index.html" class="nav-link">Inicio</a>
+          <a href="index.html" class="nav-link" style="font-size: 20px;">Inicio</a>
         </li>
 
         <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="desplegable" href="#">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="desplegable" href="#"
+            style="font-size: 20px;">
             Temas
           </a>
           <div class="dropdown-menu">
@@ -37,7 +40,8 @@
         </li>
 
         <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="desplegable" href="#">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="desplegable" href="#"
+            style="font-size: 20px;">
             Recursos Digitales
           </a>
           <div class="dropdown-menu">
@@ -48,7 +52,8 @@
         </li>
 
         <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="desplegable" href="#">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="desplegable" href="#"
+            style="font-size: 20px;">
             Aprendizaje
           </a>
           <div class="dropdown-menu">
@@ -58,12 +63,12 @@
         </li>
 
         <li class="navbar-item active">
-          <a href="autor/autor.html" class="nav-link">Autor</a>
+          <a href="autor/autor.html" class="nav-link" style="font-size: 20px;">Autor</a>
         </li>
     </div>
     </ul>
 
-    <span class="navbar-text mr-sm-2"> Proyecto Diseño Web </span>
+    <span class="navbar-text mr-sm-2" style="font-size: 40px;"> Proyecto Diseño Web </span>
     </div>
 
     <form class="form-inline">
@@ -71,47 +76,79 @@
       <button class="btn btn-outline-success" type="submit">Buscar</button>
     </form>
   </nav>
-  <div class="container">
-    <section>
-      <h2>Propósito del sitio</h2>
-      <p>Proporcionar un Conjunto de herramientas estandarizadas con conceptos prácticas y criterio enfocados en
-        resolver problemas en desarrollo de páginas web</p>
-    </section>
+
   
-  
-    <article >
-      <p></p>
-      <img src="img/framework.jfif" alt="Framework">
-      <img src="img/css.jfif" alt="CSS">
-      <img src="img/seo.jfif" alt="Posicionamiento Web">
-    </article>
-  </div>
 
   <hr>
-  <footer>
+
+  <div class="container-fluid">
+    <section>
+      <h2 class="text-center">Propósito del sitio</h2>
+      <p class="text-center">Proporcionar un Conjunto de herramientas estandarizadas con conceptos prácticas y criterio
+        enfocados en
+        resolver problemas en desarrollo de páginas web</p>
+    </section>
+
     <div class="container">
-        <p class="text-center">Copyright @2021 | Designed With by <a href="#">Izai-Guerrero</a></p>
-
-        <ul class="social_footer_ul" style="text-align: center;">
-            <li><a href="https://m.facebook.com/izai.guerrerobuitrago" target="a_blank"><i
-                        class="fab fa-facebook-f"></i></a></li>
-            <li><a href="https://www.instagram.com/p/CGfnBQlJcU_/?igshid=1rqqsle8c2uw3" target="a_blank"><i
-                        class="fab fa-instagram"></i></a></li>
-        </ul>
-        <p style="text-align: center;">
-            Correo: izaiguerrero@gmail.com <br>
-            Skype: izaiguerrero_1 <br>
-            Fecha de Actualizacion: 23-04-2021
-        </p>
+      <div class="row">
+        <div class="col-6">
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+              <img src="img/framework.jfif" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+            <br>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+              <img src="img/css.jfif" alt="CSS">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+              <img src="img/seo.jfif" alt="SEO">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+          <br>
+        </div>
+        <div class="col-6">
+          <div class="col-sm">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          </div>
+        </div>
+      </div>
     </div>
-</footer>
 
+  </div>
+  <hr>
+  <footer style="background:#343A40; color: aliceblue;">
+    <div class="container">
+      <p class="text-center">Copyright @2021 | Designed With by <a href="#">Izai-Guerrero</a></p>
 
-  
-
-
-  
-
+      <ul class="social_footer_ul" style="text-align: center;">
+        <a href="https://m.facebook.com/izai.guerrerobuitrago" target="a_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/p/CGfnBQlJcU_/?igshid=1rqqsle8c2uw3" target="a_blank"><i
+            class="fab fa-instagram"></i></a>
+      </ul>
+      <p class="text-center">
+        Correo: izaiguerrero@gmail.com <br>
+        Skype: izaiguerrero_1 <br>
+        Fecha de Actualizacion: 23-04-2021
+      </p>
+    </div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -119,6 +156,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"></script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v10.0"
+    nonce="iF3GoCdk"></script>
 </body>
 
 </html>
